@@ -175,3 +175,7 @@ jobs:
         echo "# 获取Prometheus指标" >> $GITHUB_STEP_SUMMARY
         echo "curl $SERVICE_URL/q/metrics" >> $GITHUB_STEP_SUMMARY
         echo '```' >> $GITHUB_STEP_SUMMARY
+
+
+
+        
