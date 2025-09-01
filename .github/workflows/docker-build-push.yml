@@ -35,18 +35,10 @@ jobs:
         key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
         restore-keys: ${{ runner.os }}-m2
 
-    - name: Install GraalVM
-      uses: graalvm/setup-graalvm@v1
-      with:
-        java-version: '21'
-        distribution: 'graalvm-community'
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        native-image-job-reports: 'true'
-
-    - name: Build native executable
+    - name: Build fat jar
       run: |
         chmod +x ./mvnw
-        ./mvnw package -Dnative -DskipTests=true
+        ./mvnw package -DskipTests=true
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
@@ -75,7 +67,7 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         context: .
-        file: ./src/main/docker/Dockerfile.native
+        file: ./src/main/docker/Dockerfile.jvm-uber
         push: ${{ github.event_name != 'pull_request' }}
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
@@ -178,4 +170,3 @@ jobs:
 
 
 
-        

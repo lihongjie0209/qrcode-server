@@ -1,0 +1,29 @@
+####
+# This Dockerfile is used to build a container that runs the Quarkus application in JVM mode using uber-jar
+#
+# Before building the container image run:
+#
+# ./mvnw package
+#
+# Then, build the image with:
+#
+# docker build -f src/main/docker/Dockerfile.jvm-uber -t qrcode-server .
+#
+# Then run the container using:
+#
+# docker run -i --rm -p 8080:8080 qrcode-server
+#
+###
+FROM registry.access.redhat.com/ubi9/openjdk-21:1.23
+
+ENV LANGUAGE='en_US:en'
+
+# Copy the uber jar
+COPY --chown=185 target/*-runner.jar /deployments/app.jar
+
+EXPOSE 8080
+USER 185
+
+ENV JAVA_OPTS_APPEND="-Dquarkus.http.host=0.0.0.0 -Djava.util.logging.manager=org.jboss.logmanager.LogManager"
+
+ENTRYPOINT ["java", "-jar", "/deployments/app.jar"]
