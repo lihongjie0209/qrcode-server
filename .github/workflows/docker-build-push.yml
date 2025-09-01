@@ -44,7 +44,9 @@ jobs:
         native-image-job-reports: 'true'
 
     - name: Build native executable
-      run: ./mvnw package -Dnative -DskipTests=true
+      run: |
+        chmod +x ./mvnw
+        ./mvnw package -Dnative -DskipTests=true
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
