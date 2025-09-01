@@ -43,3 +43,5 @@ nb-configuration.xml
 /.quarkus/cli/plugins/
 # TLS Certificates
 .certs/
+scripts/gcp-config.yaml
+scripts/gcp-service-account-key.json
