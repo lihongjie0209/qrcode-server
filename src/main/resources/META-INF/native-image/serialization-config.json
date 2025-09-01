@@ -1,0 +1,20 @@
+[
+  {
+    "name": "boofcv.alg.shapes.polyline.splitmerge.PolylineSplitMerge$Corner"
+  },
+  {
+    "name": "boofcv.struct.geo.Point2D_F64"
+  },
+  {
+    "name": "boofcv.struct.geo.Point2D_I32"
+  },
+  {
+    "name": "boofcv.alg.fiducial.qrcode.QrCode"
+  },
+  {
+    "name": "boofcv.struct.image.GrayU8"
+  },
+  {
+    "name": "boofcv.struct.image.GrayF32"
+  }
+]

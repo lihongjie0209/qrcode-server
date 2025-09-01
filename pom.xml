@@ -152,6 +152,18 @@
             <properties>
                 <skipITs>false</skipITs>
                 <quarkus.native.enabled>true</quarkus.native.enabled>
+                <quarkus.native.additional-build-args>
+                    --allow-incomplete-classpath,
+                    --report-unsupported-elements-at-runtime,
+                    --initialize-at-run-time=org.ejml,
+                    --initialize-at-run-time=boofcv,
+                    -H:+ReportExceptionStackTraces,
+                    -H:+PrintClassInitialization,
+                    -H:IncludeResources=.*\.properties,
+                    -H:IncludeResources=META-INF/.*,
+                    -H:+AllowVMInspection,
+                    --verbose
+                </quarkus.native.additional-build-args>
             </properties>
         </profile>
     </profiles>

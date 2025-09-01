@@ -1,0 +1,450 @@
+[
+  {
+    "name": "boofcv.struct.image.GrayU8",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.image.GrayF32",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.image.GrayS16",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.image.GrayS32",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.image.GrayF64",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.image.ImageGray",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.image.ImageBase",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.image.ImageInterleaved",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.image.Planar",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.geo.Point2D_F64",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.geo.Point2D_F32",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.geo.Point2D_I32",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.geo.Point3D_F64",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.geo.PointIndex2D_F64",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.fiducial.qrcode.QrCode",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.fiducial.qrcode.QrCodeDetector",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.fiducial.qrcode.QrCodePositionPatternDetector",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.fiducial.qrcode.QrCodeAlignmentPatternLocator",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.fiducial.qrcode.QrCodeBinaryGridReader",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.fiducial.qrcode.QrCodeCodeWordLocations",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.fiducial.qrcode.QrCodeDecoderImage",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.fiducial.qrcode.QrCodeMaskPattern",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.factory.fiducial.ConfigQrCode",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.factory.fiducial.FactoryFiducial",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.shapes.polyline.splitmerge.PolylineSplitMerge",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.shapes.polyline.splitmerge.PolylineSplitMerge$Corner",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.shapes.polygon.BinaryPolygonDetector",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.shapes.polygon.DetectPolygonBinaryGrayRefine",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.shapes.polygon.DetectPolygonFromContour",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.filter.binary.BinaryImageOps",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.filter.binary.ThresholdImageOps",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.filter.binary.Contour",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.filter.binary.LinearContourLabelChang2004",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.misc.GImageMiscOps",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.io.image.ConvertBufferedImage",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.ConnectRule",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.ConfigLength",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.Configuration",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.image.GrayU8[]",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.image.GrayF32[]",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.geo.Point2D_F64[]",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.shapes.polyline.splitmerge.PolylineSplitMerge$Corner[]",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "allPublicConstructors": true,
+    "allPublicMethods": true,
+    "allPublicFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.alg.**",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.struct.**",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.factory.**",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "unsafeAllocated": true
+  },
+  {
+    "name": "boofcv.io.**",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredFields": true,
+    "unsafeAllocated": true
+  }
+]
